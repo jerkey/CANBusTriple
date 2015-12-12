@@ -20,13 +20,13 @@
 #endif
 // #define SLEEP_ENABLE
 
+#include "Settings.h"
 
 CANBus CANBus1(CAN1SELECT, CAN1RESET, 1, "Bus 1");
 CANBus CANBus2(CAN2SELECT, CAN2RESET, 2, "Bus 2");
 CANBus CANBus3(CAN3SELECT, CAN3RESET, 3, "Bus 3");
 CANBus busses[] = { CANBus1, CANBus2, CANBus3 };
 
-#include "Settings.h"
 #include "AutoBaud.h"
 #include "SerialCommand.h"
 #include "ServiceCall.h"

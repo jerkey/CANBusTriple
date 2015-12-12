@@ -1,4 +1,17 @@
-
+#define BOOT_LED 13
+#define BT_SLEEP 8
+#define CAN1INT 0
+#define CAN1INT_D 3
+#define CAN1SELECT 9
+#define CAN1RESET 4
+#define CAN2INT 1
+#define CAN2INT_D 2
+#define CAN2SELECT 10
+#define CAN2RESET 12
+#define CAN3INT 4
+#define CAN3INT_D 7
+#define CAN3SELECT 5
+#define CAN3RESET 11
 
 #include <avr/eeprom.h>
 #include <CANBus.h>
